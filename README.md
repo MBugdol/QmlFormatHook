@@ -5,7 +5,7 @@ This repository aims to create a simple pre-commit hook to automatically run the
 ```yaml
 repos:
 - repo: https://github.com/MBugdol/QmlFormatHook
-  rev: 0.1
+  rev: v0.1
   hooks:
     - id: qmlformat
 ```
