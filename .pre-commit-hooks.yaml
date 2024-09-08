@@ -1,0 +1,8 @@
+- id: qmlformat
+  name: qmlformat
+  description: Run qmlformat on QML files
+  entry: qmlformat
+  language: system
+  types: [text]
+  files: '.*\.qml$'
+  args: ["-i", "-n", "--objects-spacing", "--functions-spacing"]
